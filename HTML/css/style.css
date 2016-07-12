@@ -11,3 +11,11 @@ body {
 h1 {
 	background: grey;
 }
+
+#block {
+	background: green;
+}
+
+#block2 .text {
+	background: silver;
+}
