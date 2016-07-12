@@ -1,3 +1,7 @@
+/* p, body, h1, #, . и многие другие 
+это селекторы в css для того чтобы 
+выделить определенный участок веб страницы,
+который мы хотим видоизменить*/
 p {
 	background: orange;
 
@@ -18,4 +22,8 @@ h1 {
 
 #block2 .text {
 	background: silver;
+}
+
+.text2 {
+	background: yellow;
 }
