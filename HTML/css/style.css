@@ -1,27 +1,13 @@
-<!DOCTYPE html>
-<html lang='en'>
+p {
+	background: orange;
 
-<head>
+}
 
-<meta charset="UTF-8">
-<title>Document</title>
+body {
 
-<link rel="stylesheet" type="text/css" href="css/style.css">
+	background: lightblue;
+}
 
-</head>
-
-<body>
-
-background-color: lightblue;
-
-
-
-
-</body>>
-
-
-
-
-
-
-</html>
+h1 {
+	background: grey;
+}
