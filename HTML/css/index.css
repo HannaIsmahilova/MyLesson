@@ -3,27 +3,26 @@
 выделить определенный участок веб страницы,
 который мы хотим видоизменить*/
 p {
-	background: orange;
+	background: white;
 
 }
 
 body {
 
-	background: lightblue;
+	background:  ;
 }
 
 h1 {
-	background: blanchedalmond;
-}
+	background: ;
 
 #block {
-	background: ghostwhite;
+	background: ;
 }
 
 #block2 .text {
-	background: sandybrown;
+	background: ;
 }
 
 .text2 {
-	background: rebeccapurple;
+	background: ;
 }
