@@ -13,17 +13,17 @@ body {
 }
 
 h1 {
-	background: grey;
+	background: blanchedalmond;
 }
 
 #block {
-	background: green;
+	background: ghostwhite;
 }
 
 #block2 .text {
-	background: silver;
+	background: sandybrown;
 }
 
 .text2 {
-	background: yellow;
+	background: rebeccapurple;
 }
