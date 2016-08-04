@@ -3,7 +3,7 @@
 выделить определенный участок веб страницы,
 который мы хотим видоизменить*/
 p {
-	background: orange;
+	background: cornflowerblue;
 
 }
 
@@ -13,17 +13,17 @@ body {
 }
 
 h1 {
-	background: grey;
+	background: seagreen;
 }
 
 #block {
-	background: green;
+	background: bisque;
 }
 
 #block2 .text {
-	background: black;
+	background: darkolivegreen;
 }
 
 .text2 {
-	background: yellow;
+	background: white;
 }
