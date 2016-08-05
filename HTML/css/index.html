@@ -1,91 +1,157 @@
 <!DOCTYPE html>
-<html lang='en'>
+<html>
+<title>W3.CSS</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+<body class="w3-content" style="max-width:1300px">
 
-<head>
-
-<meta charset="UTF-8">
-<title>Hanna Ismahilova</title>
-
-<link rel="stylesheet" href="index.css">
-
-</head>
-
-
-<body>
-
-<div id="block">
-<h1><centre>Hanna Ismahilova</centre></h1>
-
-<p class="text ">Experience:</p>
-<p>Company: Vestiacom (Poland, Lublin)
-<p>- Position: Software Tester</p>
-<p>[from February, 2014 to nowadays] > 2 years</p>
-<p>Company: uTest.com</p>
-<p>- Position: Software tester (Freelancer)</p>
-<p>[from May, 2015 to nowadays] > 1 year</p>
-</p>
-
-<p class="text2 ">Experience with:<p>- Manage of test process: analyzed of documentation, quality assurance according to procedures and
-standards, preparing of test plan, checklists, assigning tasks on the team, cooperation with project managers,
-developers (remotely and locally), reporting of implemented tests and tasks.</p>
-    <p>- Test execution web based and mobile applications manually.</p>
-<p>- Testing smart apps, VoIP-telephony, Remote access and locally access testing.</p>
-    <p>- Testing smart apps, VoIP-telephony, Remote access and locally access testing.</p>
-<p>- Test execution for smart house devices firmware (e.g. WiFi Switch, Ethernet Switch, video camera, WiFi
-routers)</p>
-    <p>- Test execution of functional, integration, loading, exploration, regression, smoke, sanity etc.</p>
-    <p>- Test execution via browsers as Firefox, Opera, Chrome, Safari, IE, Edge etc.</p>
-    <p>- Test execution via MAC OS, Windows, Linux.</p>
-    <p>- Test execution with platforms: Android, iOS, WP.</p>
-    <p>- Test execution with devices: iPhone, iPad, iPod, AppleWatch, Android phones, Android tablets, WP phones,
-video cameras, wifi switches, smart wifi bulb, wifi button.</p>
-    <p>- Redmine, TestLink, JIRA.</p>
-    <p>- Bugs reported tools (video recording, snapshots) for iOS and Android platforms.</p>
-    <p>- TestFairy and TestFlight.</p>
-    <p>- Experience in work with servers web pages.</p>
-    <p>- Mac OS and Linux command line</p>
-    <p>- Based knowledge of HTML, CSS, JavaScript, PHP, REST API.</p>
-    <p>- Basic knowledge of SQL requests, NoSQL (Redis).</p>
-    <p>- Basic knowledge of tools: Xcode, Android Studio, Chrome and Safari inspector for devices (selective logs).</p>
-    <p>- Basic knowledge Ready API, Selenium IDE.</p>></p>
-
-<p class="text ">Languages</p>
-<p>English – Upper intermediate</p>
-    <p>Polish – Advanced</p>
-    <p>Russian – Native speaker</p>
-    <p>Ukrainian – Native speaker</p>
-
-<p class="text2 ">Education</p>
-<p><p>European University of Information Technology and Economics (Poland, Warsaw)
-<p>Undergraduate study</p>
-<p>Faculty: Information Technology (2016-2020, Bachelor of Engineering)</p>
-<p><p>Academy of Finance and Business Vistula (Poland, Warsaw)
-<p>Postgraduate studies</p>
-<p>Faculty: Software Testing (2015 – 2016, Software Tester)</p>
-<p><p>The University of Economics and Innovation (Poland, Lublin)</p>
-<p>Faculty: The internal security - Management of Crisis Situations (2012 – 2015, Bachelor's)</p>>
-<p>The National Maritime University (Ukraine, Odesa)<p>
-<p>Faculty: Law (2006 – 2011, Master's)</p>></p>>
-
-<p class="text2 ">Courses</p><p>ISTQB Foundation level. No of certificate: 34325 (2016-05-09)
-Certificate 'A Good Tester' (2015)
-ECDL/Microsoft Certificate (2013)</p>>
-<p class="text2 ">About myself</p>
-<p class="text2 ">Citizenship</p><p>Ukrainian</p>>
+<!-- First Grid: Logo & About -->
+<div class="w3-row">
+    <div class="w3-half w3-black w3-container w3-center" style="height:700px">
+        <div class="w3-padding-64">
+            <h1>My Logo</h1>
+        </div>
+        <div class="w3-padding-64">
+            <a href="#work" class="w3-btn w3-btn-block w3-hover-teal w3-padding-16">Work</a>
+            <a href="#work" class="w3-btn w3-btn-block w3-hover-yellow w3-padding-16">Expirience</a>
+            <a href="#work" class="w3-btn w3-btn-block w3-hover-dark-grey w3-padding-16">Education</a>
+            <a href="#work" class="w3-btn w3-btn-block w3-hover-dark-grey w3-padding-16">Certificates</a>
+            <a href="#contact" class="w3-btn w3-btn-block w3-hover-brown w3-padding-16">Contact</a>
+        </div>
+    </div>
+    <div class="w3-half w3-blue-grey w3-container" style="height:700px">
+        <div class="w3-padding-64 w3-center">
+            <h1>About Me</h1>
+            <img src="img_avatar3.png" class="w3-margin w3-circle" alt="Person" style="width:50%">
+            <div class="w3-left-align w3-padding-xxlarge">
+                <p>Lorem ipusm sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+                <p>Lorem ipusm sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+            </div>
+        </div>
+    </div>
 </div>
 
-<div id="block2">
-<h1>О нас</h1>
+<!-- Second Grid: Work & Resume -->
+<div class="w3-row">
+    <div class="w3-half w3-light-grey w3-center" style="min-height:800px" id="work">
+        <div class="w3-padding-64">
+            <h2>Work</h2>
+            <p>Some of my latest projects.</p>
+        </div>
+        <div class="w3-row">
+            <div class="w3-half">
+                <img src="img_coffee.jpg" style="width:100%">
+            </div>
+            <div class="w3-half">
+                <img src="img_workbench.jpg" style="width:100%">
+            </div>
+        </div>
+        <div class="w3-row w3-hide-small">
+            <div class="w3-half">
+                <img src="img_workbench.jpg" style="width:100%">
+            </div>
+            <div class="w3-half">
+                <img src="img_coffee.jpg" style="width:100%">
+            </div>
+        </div>
 
-<p class="text ">История</p>
-<p class="text2 ">Карта</p>
-<p class="text ">Контакты</p>
-<p class="text2 ">Стоимость</p>
+        <div class="w3-row w3-hide-small">
+            <div class="w3-half">
+                <img src="img_sound.jpg" style="width:100%">
+            </div>
+            <div class="w3-half">
+                <img src="img_workbench.jpg" style="width:100%">
+            </div>
+        </div><br>
+        <p>Just call me awesome.</p>
+    </div>
+    <div class="w3-half w3-indigo w3-container" style="min-height:800px">
+        <div class="w3-padding-64 w3-center">
+            <h2>Expirience</h2>
 
+            <div class="w3-container w3-responsive">
+                <table class="w3-table">
+                    <tr>
+                        <th>Year</th>
+                        <th>Title</th>
+                        <th>Where</th>
+                    </tr>
+                    <tr class="w3-white">
+                        <td>2012-2016</td>
+                        <td>The rest is history..</td>
+                        <td>Lorem ipsum</td>
+                    </tr>
+                    <tr>
+                        <td>2009-2012</td>
+                        <td>Started my own company</td>
+                        <td>My Garage</td>
+                    </tr>
+                    <tr class="w3-white">
+                        <td>2008-2009</td>
+                        <td>Started working for Lorem</td>
+                        <td>London, UK</td>
+                    </tr>
+                    <tr>
+                        <td>2005-2008</td>
+                        <td>Degree in Bachelor of Design</td>
+                        <td>Harvard, USA</td>
+                    </tr>
+                    <tr class="w3-white">
+                        <td>2002-2005</td>
+                        <td>Degree in Bachelor of Business</td>
+                        <td>RMIT University, Melbourne, Australia</td>
+                    </tr>
+                    <tr class="w3-hide-medium">
+                        <td>2002-2005</td>
+                        <td>Degree in Bachelor of Business</td>
+                        <td>RMIT University, Melbourne, Australia</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
 </div>
+
+<!-- Third Grid: Swing By & Contact -->
+<div class="w3-row" id="contact">
+    <div class="w3-half w3-dark-grey w3-container w3-center" style="height:700px">
+        <div class="w3-padding-64">
+            <h1>Swing By</h1>
+        </div>
+        <div class="w3-padding-64">
+            <p>..for a cup of coffee, or whatever.</p>
+            <p>Chicago, US</p>
+            <p>+00 1515151515</p>
+            <p>test@test.com</p>
+        </div>
+    </div>
+    <div class="w3-half w3-teal w3-container" style="height:700px">
+        <div class="w3-padding-64 w3-padding-xxlarge">
+            <h1>Contact</h1>
+            <p class="w3-opacity">GET IN TOUCH</p>
+            <form class="w3-container w3-card-2 w3-padding-32 w3-white">
+                <div class="w3-group">
+                    <label>Name</label>
+                    <input class="w3-input" style="width:100%;" type="text" required>
+                </div>
+                <div class="w3-group">
+                    <label>Name</label>
+                    <input class="w3-input" style="width:100%;" type="text" required>
+                </div>
+                <div class="w3-group">
+                    <label>Subject</label>
+                    <input class="w3-input" style="width:100%;" type="text" required>
+                </div>
+                <button type="button" class="w3-btn w3-right w3-theme">Send</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-container w3-black w3-padding-16">
+    <p>Powered by <a href="http://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+</footer>
 
 </body>
-
-
-
 </html>
